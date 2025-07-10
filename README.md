@@ -8,26 +8,31 @@ This repository is a comprehensive overview of the Dart programming language, in
 
 ### 🔹 `lib/basics_of_dart/`
 Covers the foundational aspects of Dart:
-- `comments.dart`: Single-line and multi-line comments
-- `conditional_statements.dart`: if, else, and switch
-- `functions.dart`: Function types, parameters, and return types
-- `future_await.dart`: Asynchronous programming using `Future` and `await`
-- `loops.dart`: For, while, do-while loops
-- `operators.dart`: Arithmetic, logical, and comparison operators
+- `comments.dart`: Single-line and multi-line comments and documentation comment
+- `variables_and_data_types.dart`: Data types of the variables , some Built-in Methods  for datatype , show Common Collection Methods
 - `standard_input_output.dart`: Input/output using `stdin` and `stdout`
-- `try_and_catch.dart`: Exception handling
-- `variables_and_data_types.dart`: Variables, data types, and type inference
+- `operators.dart`: Arithmetic, Relational, Type test, Bitwise, Assignment, Logical, Conditional, Null-aware, Cascade Notation Operators
+- `conditional_statements.dart`: If Else Statement (if , if..else, Nested if, if-else-if), switch case 
+- `loops.dart`: Loops (for loop , for…in loop , for each … loop , while loop , do..while loop)
+- `functions.dart`: Function types, parameters type
+- `try_and_catch.dart`: Exception handling , Built-in exceptions
+- `future_await.dart`: Asynchronous programming using `Future` and `await`
 
 ---
 
-### 🔹 `lib/important_points/oop/`
+### 🔹 `lib/oop/`
 Explains core OOP concepts in Dart with code samples:
+- `class_and_object.dart`: Introduction about oop (class and object)
+- `type_of_constructor.dart`: How to create constructor and type of constructors
+- `encapsulation.dart`: PrEncapsulation and how to hide data and use getter and setter methods to access and update the value of private property
+- `inheritance.dart`: Extending classes 
+- `polymorphism.dart`:  Polymorphism & Method overriding
 - `abstract.dart`: Abstract classes and methods
-- `class_and_object.dart`: Basics of classes and instances
-- `encapsulation.dart`: Private fields and public interfaces
-- `inheritance.dart`: Extending classes and overriding methods
-- `polymorphism.dart`: Method overriding and dynamic dispatch
-- `type_of_constructor.dart`: Named, default, and redirecting constructors
+
+---
+
+### 🔹 `lib/important_points/`
+Contains important points to understand.
 
 ---
 
@@ -36,24 +41,27 @@ Contains practical exercises and challenges with solutions to apply the concepts
 
 ---
 
-### 🔹 `dart_overview.dart`
-An entry-level summary combining Dart syntax and usage with examples in a single file.
-
----
-
 ## 🧠 What You’ll Learn
 - Dart language syntax
 - Variables, data types, and functions
 - Conditional logic and looping
-- Exception handling
+- Exception handling using try_catch
 - Working with Futures & async/await
 - Object-oriented programming in Dart
 - Constructors, inheritance, polymorphism, abstraction, and encapsulation
+- Some important point 
 
 ---
 
 ## 💻 Getting Started
 
-Make sure Dart is installed:  
-```bash
-dart --version
+- Clone the repository:
+```
+git clone https://github.com/mohamedelbaiomy/dart-examples.git
+```
+- Navigate through the folders to find the topic you're interested in.
+
+---
+
+## About Me
+Hello! I'm **Ahmed AbuTalep**, a Software developer interested in mobile applications development.I use flutter technology to make applications . With over three years of programming experience and two years in mobile applications.I am dedicated to continuous learning and hard work in my field.
