@@ -57,7 +57,7 @@ Contains practical exercises and challenges with solutions to apply the concepts
 
 - Clone the repository:
 ```
-git clone https://github.com/mohamedelbaiomy/dart-examples.git
+git clone https://github.com/abutalep/Dart_Overview.git
 ```
 - Navigate through the folders to find the topic you're interested in.
 
