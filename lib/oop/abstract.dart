@@ -1,0 +1,42 @@
+// This file explain
+/* Abstract for class*/
+///Abstract classes are classes that cannot be initialized. It is used to define the behavior of a class that can be inherited by other classes.
+///An abstract class is declared using the keyword abstract.
+///Subclasses of an abstract class must implement all the abstract methods of the abstract class. 
+
+abstract class Shape {
+  int dim1, dim2;
+  // Constructor
+  Shape(this.dim1, this.dim2);
+  // Abstract method
+  void area();
+}
+
+class Rectangle extends Shape {
+  // Constructor
+  Rectangle(int dim1, int dim2) : super(dim1, dim2);
+
+  // Implementation of area()
+  @override
+  void area() {
+    print('The area of the rectangle is ${dim1 * dim2}');
+  }
+}
+
+class Triangle extends Shape {
+  // Constructor
+  Triangle(int dim1, int dim2) : super(dim1, dim2);
+
+  // Implementation of area()
+  @override
+  void area() {
+    print('The area of the triangle is ${0.5 * dim1 * dim2}');
+  }
+}
+void main() {
+  Rectangle rectangle = Rectangle(10, 20);
+  rectangle.area();
+
+  Triangle triangle = Triangle(10, 20);
+  triangle.area();
+}
